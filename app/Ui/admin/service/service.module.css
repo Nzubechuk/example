@@ -1,0 +1,80 @@
+.container {
+    background-color: ece8ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addButton {
+    padding: 10px;
+    background-color: var(--bg);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.serviceDetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceTitle{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.serviceDesc{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #b7bac1;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modifycon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+
+}
+
+.button{
+    cursor: pointer;
+}
+
+.modify{
+    color: var(--bg);
+}
+
+.del {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    color: crimson;
+}
+
+.delete{
+    color: crimson;
+}

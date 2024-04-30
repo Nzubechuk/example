@@ -1,0 +1,19 @@
+:root {
+    --bg: #293d4a;
+    --bgMain:  #ece8ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
